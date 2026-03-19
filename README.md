@@ -14,4 +14,4 @@ An app to list and share excess backyard produce with neighbors.
 1. **API:** See `backend-produce-api/README.md` — create DB, `.env`, `alembic upgrade head`, `uvicorn app.main:app --reload`.
 2. **App:** See `backend-produce-app/README.md` — `npm install`, `npm start`.
 
-Keep this folder as your **Git repository root** (where `.git` lives). Do **not** initialize Git in your user home directory (`C:\Users\aishw`).
+Keep this folder as your **Git repository root** (where `.git` lives). Do **not** initialize Git in your user home directory.

@@ -18,8 +18,20 @@ backend-produce-app/web-build/
 backend-produce-app/.env
 backend-produce-app/.env.local
 
-# --- Wrong nested copy (do not commit) ---
+# --- Wrong nested copy from old remote layout (never commit) ---
 backyard-produce/
+
+# --- Backup folder name pattern ---
+backyard-produce-nested-backup-*/
+
+# --- Also at repo root ---
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.expo/
+uploads/
 
 # --- OS / IDE ---
 .DS_Store
@@ -27,6 +39,3 @@ Thumbs.db
 .idea/
 .vscode/
 *.log
-
-# --- Backup folder name pattern ---
-backyard-produce-nested-backup-*/
