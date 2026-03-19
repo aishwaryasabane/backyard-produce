@@ -18,9 +18,15 @@ backend-produce-app/web-build/
 backend-produce-app/.env
 backend-produce-app/.env.local
 
+# --- Wrong nested copy (do not commit) ---
+backyard-produce/
+
 # --- OS / IDE ---
 .DS_Store
 Thumbs.db
 .idea/
 .vscode/
 *.log
+
+# --- Backup folder name pattern ---
+backyard-produce-nested-backup-*/
