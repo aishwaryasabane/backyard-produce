@@ -1,0 +1,26 @@
+# --- Python (API: backend-produce-api) ---
+backend-produce-api/.venv/
+backend-produce-api/venv/
+backend-produce-api/**/__pycache__/
+backend-produce-api/**/*.py[cod]
+backend-produce-api/**/*.egg-info/
+backend-produce-api/.pytest_cache/
+backend-produce-api/.mypy_cache/
+backend-produce-api/.env
+backend-produce-api/uploads/
+*.db
+
+# --- Node / Expo (app: backend-produce-app) ---
+backend-produce-app/node_modules/
+backend-produce-app/.expo/
+backend-produce-app/dist/
+backend-produce-app/web-build/
+backend-produce-app/.env
+backend-produce-app/.env.local
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

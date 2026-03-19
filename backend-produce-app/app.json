@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Backyard Produce",
+    "slug": "backyard-produce-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#5B8C5A"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.backyardproduce.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#5B8C5A"
+      },
+      "package": "com.backyardproduce.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "READ_MEDIA_IMAGES"
+      ]
+    },
+    "plugins": [
+      "expo-image-picker",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow Backyard Produce to use your location to show nearby listings."
+        }
+      ]
+    ]
+  }
+}
